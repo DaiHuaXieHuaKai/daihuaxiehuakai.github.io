@@ -1,43 +1,47 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>待花谢花开</title>
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link href="https://cdn.bootcss.com/font-awesome/3.0.0/css/font-awesome.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>待花谢花开</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link href="https://cdn.bootcss.com/font-awesome/3.0.0/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Bootstrap -->
-  <h1 id="header" class="text-primary">{{title}}</h1>
-  
-  <div class="container list-article">
-    <div class="btn-group pull-right" id="switch-view">
-      <button class="btn btn-primary">
-        <span class="icon-th-large"></span>
-      </button>
-      <button class="btn btn-primary active">
-        <span class="icon-th-list"></span>
-      </button>
+    <!-- Bootstrap -->
+    <div id="app" class="content">
+        <h1 id="header" class="text-primary">{{title}}</h1>
+
+        <div class="container list-article">
+            <div class="btn-group pull-right" id="switch-view">
+                <button class="btn btn-primary" @click="changeView(0)" v-bind:class="{active:!isActive}">
+          <span class="icon-th-large"></span>
+        </button>
+                <button class="btn btn-primary" @click="changeView(1)" v-bind:class="{active:isActive}">
+          <span class="icon-th-list"></span>
+        </button>
+            </div>
+            <div class="clearfix"></div>
+            <div class="row">
+                <div v-for="item in lists" v-bind:class="{'bloc article-wrapper col-xs-4':!isActive,'col-xs-12 article-wrapper':isActive}">
+                    <article>
+                        <a href="templates/detail.html" class="more">查看详情</a>
+                        <div class="img-wrapper"><img v-bind:src="item.image" alt="" /></div>
+                        <h1>{{item.title}}</h1>
+                        <p>{{item.des}}</p>
+                    </article>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="clearfix"></div>
-    <div id="list" class="row">
-      <div v-for="item in lists" @click="clickEvent(item)" class="col-xs-12 article-wrapper">
-       <article>
-        <a href="#" class="more">查看详情</a>
-        <div class="img-wrapper"><img v-bind:src="item.image" alt="" /></div>
-        <h1>{{item.title}}</h1>
-        <p>{{item.des}}</p>
-      </article>
-    </div>
-  </div>
-</div>
-<script src='js/jquery.min.js'></script>
-<script src="js/vue.js"></script>
-<script src="js/vue-router.js"></script>
-<script src="js/index.js"></script>
+    <script src='js/jquery.min.js'></script>
+    <script src="js/vue.js"></script>
+    <script src="js/vue-router.js"></script>
+    <script src="js/index.js"></script>
 
 
 </body>
+
 </html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>实用网站</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/detail.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="app" class="content">
+        <div class="row">
+            <div class="card-col col-xs-3" v-for="item in items">
+                <div class="card">
+                    <div class="img">
+                        <img v-bind:src="item.image" v-bind:alt="item.title">
+                    </div>
+                    <div class="title">{{item.title}}</div>
+                    <div class="des">{{item.des}}</div>
+                    <a v-bind:href="item.url">查看详情</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/vue.js"></script>
+<script src="../js/detail.js"></script>
+
+</html>
