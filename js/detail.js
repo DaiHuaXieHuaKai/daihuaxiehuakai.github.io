@@ -46,7 +46,7 @@ var items = [{
     }, {
         title: 'ionic1 碰到的问题',
         des: '一篇分享了多个有关使用ionic1的时候遇到的问题，非常具有参考价值。',
-        image: '../images/detail/Question.png',
+        image: '../images/detail/question.png',
         url: 'http://blog.sina.com.cn/s/blog_537517170102w5vj.html'
     }, {
         title: 'SHOWAPI',
@@ -591,7 +591,7 @@ var items = [{
         title: " handlebars.js ",
         url: "http://handlebarsjs.com/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151017151232-52-1.jpg?x-oss-process=style/repo",
-        des: " "
+        des: "Handlebars提供必要的力量，让您有效无挫折地构建语义模板。 "
     },
     {
         title: " parallax ",
