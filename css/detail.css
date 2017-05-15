@@ -1,61 +1,109 @@
-.row {
-    margin-top: 200px;
-}
-
-.card-col {
-    text-align: center;
-    margin-bottom: 40px;
-}
-
-.card {
-    height: 200px;
-    border: 1px solid #dddddd;
-    background: #ffffff;
-    text-align: center;
-    margin: 30px;
-}
-
-.card img {
-    width: 120px;
-    height: 120px;
-    margin-top: -60px;
-    background: #999999;
-}
-
-.card .title {
-    height: 30px;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
-
-.card .des {
-    height: 60px;
-    overflow: hidden;
-    line-height: 20px;
-    position: relative;
-}
-
-.card a {
-    display: none;
-}
-
-a:hover {
-    text-decoration: none;
-}
-
-.card:hover a {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    background: #555555;
-    opacity: 0.8;
-    margin: 30px 45px;
-    padding: 90px;
-    color: #ffffff;
-    font-size: 28px;
-}
+                   .content {
+                       position: relative;
+                       color: #fff;
+                       font-family: Lato;
+                       text-align: center;
+                       background-image: url('../images/detail/background.jpeg');
+                       animation: animatedBackground 30s linear infinite;
+                   }
+                   
+                   .banner {
+                       height: 100px;
+                   }
+                   
+                   .row {
+                       /*margin-top: 200px;*/
+                   }
+                   
+                   .card-col {
+                       text-align: center;
+                       margin-bottom: 40px;
+                   }
+                   
+                   .card {
+                       height: 200px;
+                       border: 1px solid #dddddd;
+                       background: rgba(255, 255, 255, 0.25);
+                       text-align: center;
+                       margin: 30px;
+                   }
+                   
+                   .card img {
+                       width: 120px;
+                       height: 120px;
+                       margin-top: -60px;
+                       background: #999999;
+                   }
+                   
+                   .card .title {
+                       height: 30px;
+                       font-size: 24px;
+                       font-weight: 500;
+                       margin-bottom: 20px;
+                       margin-top: 20px;
+                   }
+                   
+                   .card .des {
+                       height: 60px;
+                       overflow: hidden;
+                       line-height: 20px;
+                       position: relative;
+                   }
+                   
+                   .card a {
+                       display: none;
+                   }
+                   
+                   a:hover {
+                       text-decoration: none;
+                   }
+                   
+                   .card:hover a {
+                       display: block;
+                       position: absolute;
+                       top: 0;
+                       left: 0;
+                       bottom: 0;
+                       right: 0;
+                       background: #333333;
+                       opacity: 0.8;
+                       margin: 30px 45px;
+                       padding: 90px;
+                       color: #ffffff;
+                       font-size: 28px;
+                       animation: changebackground 1s;
+                       -webkit-animation: changebackground 1s;
+                   }
+                   
+                   @keyframes changebackground {
+                       from {
+                           background: rgba(255, 255, 255, 0.25);
+                           ;
+                           font-size: 14px;
+                       }
+                       to {
+                           background: #333333;
+                           font-size: 28px;
+                       }
+                   }
+                   
+                   @-webkit-keyframes changebackground {
+                       from {
+                           background: rgba(255, 255, 255, 0.25);
+                           ;
+                           font-size: 14px;
+                       }
+                       to {
+                           background: #333333;
+                           font-size: 28px;
+                       }
+                   }
+                   
+                   @keyframes animatedBackground {
+                       from {
+                           background-position: 0 0;
+                       }
+                       to {
+                           background-position: 600px 0;
+                       }
+                   }

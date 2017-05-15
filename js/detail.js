@@ -207,7 +207,7 @@ var items = [{
         title: " phantomjs ",
         url: "http://phantomjs.org/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009222133-4-1.jpg?x-oss-process=style/repo",
-        des: " Scriptable Headless WebKit "
+        des: " PhantomJS是一个无头部WebKit通过一段JavaScript API编写的脚本。 它支持各种Web标准：DOM处理，CSS选择器，JSON，Canvas和SVG。"
     },
     {
         title: " yarn ",
@@ -219,19 +219,19 @@ var items = [{
         title: " underscore ",
         url: "http://www.css88.com/doc/underscore/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151015205929-91-1.jpg?x-oss-process=style/repo",
-        des: " JavaScript&#39;s utility _ belt "
+        des: " Underscore一个JavaScript实用库，提供了一整套函数式编程的实用功能，但是没有扩展任何JavaScript内置对象。 "
     },
     {
         title: " chosen ",
         url: "http://plugins.jquery.com/chosen/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113193718-50.jpg?x-oss-process=style/repo",
-        des: " Chosen is a library for making long, unwieldy select boxes more friendly. "
+        des: " Chosen是一个JavaScript插件，使得长而笨重的选择框更加人性化。 它目前可用于jQuery和Prototype风格。 "
     },
     {
         title: " select2 ",
         url: "http://select2.github.io/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113193656-40.jpg?x-oss-process=style/repo",
-        des: " Select2 is a jQuery based replacement for select boxes. It supports searching, remote data sets, and infinite scrolling of results. "
+        des: " Select2为您提供了一个可自定义的选择框，支持搜索，标记，远程数据集，无限滚动以及许多其他高度使用的选项。 "
     },
     {
         title: " echarts ",
@@ -243,7 +243,7 @@ var items = [{
         title: " fullPage.js ",
         url: "http://www.jq22.com/jquery-info1124",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113193700-54.jpg?x-oss-process=style/repo",
-        des: " fullPage plugin by Alvaro Trigo. Create full screen pages fast and simple "
+        des: " fullPage.js 是一个基于 jQuery 的插件，它能够很方便、很轻松的制作出全屏网站。 "
     },
     {
         title: " Modernizr ",
@@ -261,7 +261,7 @@ var items = [{
         title: " babel ",
         url: "http://babeljs.cn/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/160115030007-51.jpg?x-oss-process=style/repo",
-        des: " Babel is a compiler for writing next generation JavaScript. "
+        des: " Babel 用于转化你的 JavaScript 代码 "
     },
     {
         title: " pdf.js ",
@@ -273,7 +273,7 @@ var items = [{
         title: " ember.js ",
         url: "https://emberjs.com/api/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009142408-2-1.jpg?x-oss-process=style/repo",
-        des: " Ember.js - A JavaScript framework for creating ambitious web applications "
+        des: "Ember是一个JavaScript前端框架，旨在帮助您构建具有丰富而复杂的用户交互的网站。 "
     },
     {
         title: " Leaflet ",
@@ -327,7 +327,7 @@ var items = [{
         title: " polymer ",
         url: "https://www.journals.elsevier.com/polymer/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113193721-84.jpg?x-oss-process=style/repo",
-        des: " Build modern apps using web components "
+        des: " 使用Web组件构建现代应用程序 "
     },
     {
         title: " web-starter-kit ",
@@ -337,9 +337,9 @@ var items = [{
     },
     {
         title: " immutable-js ",
-        url: "https://github.com/facebook/immutable-js",
+        url: "http://facebook.github.io/immutable-js/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151017104105-96-1.jpg?x-oss-process=style/repo",
-        des: " Immutable persistent data collections for Javascript which increase efficiency and simplicity. "
+        des: " 用于Javascript的不变的持久数据集合可以提高效率和简单性。"
     },
     {
         title: " weui ",
@@ -351,7 +351,7 @@ var items = [{
         title: " pure ",
         url: "https://purecss.io/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009222835-42-1.jpg?x-oss-process=style/repo",
-        des: " A set of small, responsive CSS modules that you can use in every web project. "
+        des: " 一组小型，敏感的CSS模块，您可以在每个Web项目中使用。 "
     },
     {
         title: " hammer.js ",
@@ -411,7 +411,7 @@ var items = [{
         title: " intro.js ",
         url: "https://github.com/usablica/intro.js/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/160121221121-23-1.jpg?x-oss-process=style/repo",
-        des: " A better way for new feature introduction and step-by-step users guide for your website and project. "
+        des: "更好的方式为您的网站和项目作为新功能介绍和逐步用户指南。"
     },
     {
         title: " fastclick ",
@@ -423,13 +423,13 @@ var items = [{
         title: " pixi.js ",
         url: "http://www.pixijs.com/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151007152205-40-1.jpg?x-oss-process=style/repo",
-        des: " Super fast HTML 5 2D rendering engine that uses webGL with canvas fallback "
+        des: " 用最快，最灵活的2D WebGL渲染器创建美丽的数字内容。 "
     },
     {
         title: " Swiper ",
         url: "http://www.swiper.com.cn/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151007151614-62-1.png?x-oss-process=style/repo",
-        des: " Most modern mobile touch slider with hardware accelerated transitions "
+        des: " Swiper是纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端。"
     },
     {
         title: " ui-router ",
@@ -459,7 +459,7 @@ var items = [{
         title: " zepto ",
         url: "http://www.css88.com/doc/zeptojs_api/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009222204-65-1.jpg?x-oss-process=style/repo",
-        des: " Zepto.js is a minimalist JavaScript library for modern browsers, with a jQuery-compatible API "
+        des: " Zepto是一个轻量级的针对现代高级浏览器的JavaScript库， 它与jquery有着类似的api。 如果你会用jquery，那么你也会用zepto。 "
     },
     {
         title: " coffeescript ",
@@ -477,7 +477,7 @@ var items = [{
         title: " Flat-UI ",
         url: "http://www.bootcss.com/p/flat-ui/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009223717-68-1.jpg?x-oss-process=style/repo",
-        des: " Flat UI Free - Design Framework (html/css3/less/js). Flat UI is based on Bootstrap, a comfortable, responsive, and functional framework that simplifies the development of websites. "
+        des: " 免费的WEB界面工具组件库 "
     },
     {
         title: " ratchet ",
@@ -487,15 +487,15 @@ var items = [{
     },
     {
         title: " postcss ",
-        url: "https://github.com/postcss/postcss",
+        url: "http://postcss.org/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151008175737-49-1.png?x-oss-process=style/repo",
-        des: " Transforming styles with JS plugins "
+        des: " 使用JS插件转换样式 "
     },
     {
         title: " dropzone ",
         url: "http://www.dropzonejs.com/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113203102-56.jpg?x-oss-process=style/repo",
-        des: " Dropzone is an easy to use drag&#39;n&#39;drop library. It supports image previews and shows nice progress bars. "
+        des: " DropzoneJS是一个开源库，可以提供拖放文件上传和图像预览。"
     },
     {
         title: " npm ",
@@ -507,7 +507,7 @@ var items = [{
         title: " Respond ",
         url: "https://github.com/scottjehl/Respond/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113200437-7.jpg?x-oss-process=style/repo",
-        des: " A fast &amp; lightweight polyfill for min/max-width CSS3 Media Queries (for IE 6-8, and more) "
+        des: " 用于最小/最大宽度CSS3媒体查询的快速和轻便的聚合物填充 "
     },
     {
         title: " CodeMirror ",
@@ -519,19 +519,19 @@ var items = [{
         title: " gentelella ",
         url: "https://colorlib.com/polygon/gentelella/index.html",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/160624002304-93-1.png?x-oss-process=style/repo",
-        des: " Free Bootstrap 3 Admin Template "
+        des: " 免费的 Bootstrap 3 管理模板 "
     },
     {
         title: " nprogress ",
-        url: "https://github.com/rstacruz/nprogress",
+        url: "http://ricostacruz.com/nprogress/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151015211026-91-1.jpg?x-oss-process=style/repo",
-        des: " For slim progress bars like on YouTube, Medium, etc "
+        des: " 对于像YouTube，Medium等等的细微进度条"
     },
     {
         title: " jquery-ui ",
         url: "https://jqueryui.com/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009223532-76-1.jpg?x-oss-process=style/repo",
-        des: " The official jQuery user interface library. "
+        des: " 官方的jQuery用户界面库。"
     },
     {
         title: " element ",
@@ -549,13 +549,13 @@ var items = [{
         title: " SpinKit ",
         url: "http://tobiasahlin.com/spinkit/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151122125530-34-1.jpg?x-oss-process=style/repo",
-        des: " A collection of loading indicators animated with CSS "
+        des: " 使用CSS动画化的加载指示器的集合 "
     },
     {
         title: " jasmine ",
         url: "https://jasmine.github.io/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113193723-63.jpg?x-oss-process=style/repo",
-        des: " DOM-less simple JavaScript testing framework "
+        des: " 无DOM的简单JavaScript测试框架 "
     },
     {
         title: " velocity ",
@@ -567,7 +567,7 @@ var items = [{
         title: " mocha ",
         url: "http://mochajs.org/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151113193513-34.jpg?x-oss-process=style/repo",
-        des: " mocha - simple, flexible, fun javascript test framework for node.js &amp; the browser. (BDD, TDD, QUnit styles via interfaces) "
+        des: " mocha 是一个功能丰富的JavaScript测试框架，运行在Node.js和浏览器中，使异步测试变得简单而有趣 "
     },
     {
         title: " quill ",
@@ -603,7 +603,7 @@ var items = [{
         title: " pace ",
         url: "http://github.hubspot.com/pace/docs/welcome/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/160121222436-1-1.jpg?x-oss-process=style/repo",
-        des: " Automatically add a progress bar to your site. #hubspot-open-source "
+        des: " 自动向您的网站添加进度条 "
     },
     {
         title: " grunt ",
