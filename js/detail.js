@@ -46,7 +46,7 @@ var items = [{
     }, {
         title: 'ionic1 碰到的问题',
         des: '一篇分享了多个有关使用ionic1的时候遇到的问题，非常具有参考价值。',
-        image: '../images/detail/question.png',
+        image: '../images/detail/q.png',
         url: 'http://blog.sina.com.cn/s/blog_537517170102w5vj.html'
     }, {
         title: 'SHOWAPI',
