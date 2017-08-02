@@ -58,6 +58,11 @@ var items = [{
         url: "http://www.bootcss.com/",
         image: "https://awesomes.oss-cn-beijing.aliyuncs.com/repo/151009222011-95-1.jpg?x-oss-process=style/subject_repo",
         des: " 目前最流行的 HTML, CSS 和 JavaScript 框架，用于开发响应式，移动端先行的 web 项目 "
+    },{
+        title: "WOW.js ",
+        url: " http://mynameismatthieu.com/WOW/",
+        image: "http://mynameismatthieu.com/WOW/img/wow-logo.jpg",
+        des: " 当你滚动的时候，轻松自定义动画设置：样式，延迟，长度，偏移量，迭代... "
     },
     {
         title: " d3 ",
