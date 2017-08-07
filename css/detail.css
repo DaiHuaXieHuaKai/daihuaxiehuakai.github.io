@@ -1,4 +1,7 @@
-                   .content {
+[v-cloak]{
+display:none;
+}
+.content {
                        position: relative;
                        color: #fff;
                        font-family: Lato;
